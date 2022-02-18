@@ -1,0 +1,24 @@
+.footer {
+  background-image: linear-gradient(
+    135deg,
+    #fff600 25%,
+    #000000 25%,
+    #000000 50%,
+    #fff600 50%,
+    #fff600 75%,
+    #000000 75%,
+    #000000 100%
+  );
+  background-size: 56.57px 56.57px;
+  width: 100%;
+  height: 100px;
+  border-top: 1px solid #eaeaea;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  height: 1em;
+  margin: 5px;
+}

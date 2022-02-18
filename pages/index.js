@@ -10,11 +10,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+      <Header/>
       <main>
-        <Header title="Welcome to my site!" />
-        <p className="description">
-          Get started by editing <code>pages/index.js</code>
-        </p>
+        <h1>under <br/> construction</h1>
       </main>
 
       <Footer />
