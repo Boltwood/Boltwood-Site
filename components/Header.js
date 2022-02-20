@@ -1,4 +1,5 @@
 import styles from './Header.module.scss'
+import Link from 'next/link'
 
 export default function Header({ title }) {
   return (
@@ -8,14 +9,15 @@ export default function Header({ title }) {
   <nav>
   <div className={styles.header__logo}>
     <a href="/">
-      <img src="/bb-logo.png"></img>
+    <img src="/bb-logo1.png"></img>
     </a>
   </div>
   <div className={styles.header__nav}>
     <ul>
-      <li><a href="/">About</a></li>
-      <li><a href="/">CV</a></li>
-      <li><a href="/">Contact</a></li>
+      <li><Link href="/">About</Link></li>
+      <li><Link href="/resume">Resume</Link></li>
+      <li><Link href="/">Contact</Link></li>
+      <li><Link href="/">Portfolio</Link></li>
     </ul>
   </div>
   </nav>

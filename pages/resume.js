@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Header from '@components/Header'
 import Footer from '@components/Footer'
 
-export default function Home() {
+export default function resume() {
   return (
     <div className="container">
       <Head>
@@ -13,13 +13,8 @@ export default function Home() {
       <main>
       <Header/>
         <div className="content">
-          <div className="content__intro">
-            <p className="intro">Hello I'm,</p>
-            <h1>Bradley Boltwood</h1>
-            <p className="role">Front-End Developer</p>
-            </div>
-          <div className="content__image"><img src="/meNew.png"/></div>
-        </div>
+
+        </div>          
       </main>
 
       <Footer />
